@@ -80,7 +80,6 @@ const sessionOptions = {
 
 // creating API  
 app.get("/", (req, res) => {
-    console.log("hii, I'm root"); // we can see this in terminal
     res.redirect("/listings"); // we can see this in browser
 });
 
